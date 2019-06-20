@@ -1,6 +1,6 @@
 # fake-subdo
 # Cara install
-    apt uodate
+    apt update
     apt upgrade
     apt install git
     git clone https://guithub.com/404rgr/fake-subdo
