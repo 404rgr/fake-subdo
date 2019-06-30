@@ -34,7 +34,7 @@ read -p "=> " pa
 
 if [ $pa = 1 ]||[ $pa = satu ];
 then
-read -p "Nama Web ?=> http://" domain
+read -p "Nama Domain ?=> http://" domain
 read -p "Jumlah (1-9999) ?=> " jumlah
 read -p "Output (fake.txt) ?=> " output
 count=1
@@ -51,7 +51,7 @@ exit
 
 elif [ $pa = 2 ]||[ $pa = dua ];
 then
-read -p "Nama Web ?=> http://" domain
+read -p "Nama Domain ?=> http://" domain
 read -p "Subdomain (ex: faker) ?=> " subdo
 read -p "Jumlah (1-9999) ?=> " jumlah
 read -p "Output (fake.txt) ?=> " output
@@ -68,7 +68,7 @@ echo -e $g "  (-) $output (-)"
 exit
 
 else
-read -p "Nama Web ?=> http://" domain
+read -p "Nama Domain ?=> http://" domain
 read -p "Subdomain (ex: faker) ?=> " subdo
 read -p "Jumlah (1-9999) ?=> " jumlah
 read -p "Output (fake.txt) ?=> " output
